@@ -1,0 +1,8 @@
+
+%% theory
+L = 2*l;
+lambda = l and l/3;
+k0 = 2*pi/lambda;
+theta = 0 to pi;
+
+Etheta = ((cos(k0*L/2*cos(theta)) - cos(k0*L/lambda))/sin(theta))²;

@@ -107,12 +107,14 @@ I_z(z') = I_0e^{-jk_0z'}
 \end{equation}
 the electric far field is obtained by integrating equation 4.27 in textbook with current from equation \ref{current} and limit values of $L = -l $ to $L = l $. The final expression is
 
-\begin{equation} 
+\begin{equation} \label{efield}
 E_{\theta} = \frac{jZ_0I_0e^{-jk_0r}}{\pi r} \left[\frac{\sin\left(2k_0l\sin ^{2}\left(\frac{\theta}{2}\right)\right)}{k_0\tan\left(\frac{\theta}{2}\right)}\right] \\
 \end{equation}
 
 \subsection*{2 b)}
-:(
+Maximum magnitude for equation \ref{efield} is obtained for $\theta = 36.6\degree$.\\
+So the normalised radiation intensity is \\
+
  
 \subsection*{2 c)} 
 :(
