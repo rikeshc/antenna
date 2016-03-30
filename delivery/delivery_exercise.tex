@@ -5,7 +5,7 @@
 %\geometry{landscape}                		% Activate for rotated page geometry
 %\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
-								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{float} 								% TeX will automatically convert eps --> pdf in pdflatex		
 \usepackage{amsmath}
 
 %SetFonts
@@ -112,10 +112,16 @@ E_{\theta} = \frac{jZ_0I_0e^{-jk_0r}}{\pi r} \left[\frac{\sin\left(2k_0l\sin ^{2
 \end{equation}
 
 \subsection*{2 b)}
-:(
+Number of lobes and its expression :(
  
 \subsection*{2 c)} 
-:(
+I used matlab for calculating radiation intensity, $U$, normalised it by dividing it with the highest value and plotted as follows.
+\begin{figure} [H]
+  \centering 
+  \includegraphics[width=\textwidth]{radiation.eps} 
+  \caption{Radiation patterns for current distribution in equation \ref{current}}
+  \label{result} 
+\end{figure}
 
 \section{Macro cell coverage} 
 Given in the question: 95\% successful communication is desired at the fringe of macro cell coverage, and location variability of 6 dB and 10 dB.
