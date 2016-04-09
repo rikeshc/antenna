@@ -11,12 +11,12 @@ for i = 1: length(theta)
     U1(i) = (sin(2*2*pi*sin(theta(i)/2)^2)/tan(theta(i)/2))^2;
     U2(i) = (sin(2*6*pi*sin(theta(i)/2)^2)/tan(theta(i)/2))^2;
 end
-U1n = U1/max(U1n);
+U1n = U1/max(U1);
 U2n = U2/max(U2);
 %%plotting
 subplot(1, 2, 1);
-polar(theta, U1n);
+plot(theta, U1n);
 title('Radiation pattern for l = \lambda');
 subplot(1, 2, 2);
-polar(theta, U2n);
+plot(theta, U2n);
 title('Radiation pattern for l = 3\lambda');
