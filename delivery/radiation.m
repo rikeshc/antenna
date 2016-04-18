@@ -14,9 +14,11 @@ end
 U1n = U1/max(U1);
 U2n = U2/max(U2);
 %%plotting
-subplot(1, 2, 1);
-plot(theta, U1n);
+%subplot(1, 2, 1);
+plot(rad2deg(theta), U1n, rad2deg(theta), U2n);
 title('Radiation pattern for l = \lambda');
-subplot(1, 2, 2);
-plot(theta, U2n);
-title('Radiation pattern for l = 3\lambda');
+%subplot(1, 2, 2);
+%hold on;
+%plot(theta, U2n);
+%title('Radiation pattern for l = 3\lambda');
+axis([0 90 0 1]);
